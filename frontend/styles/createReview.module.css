@@ -1,0 +1,60 @@
+.formData
+{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    background-color: rgba(8, 15, 37, 0.99);
+    color: rgb(241, 243, 141);
+    padding: 20px;
+    border-radius: 15px;
+}
+.input, .textarea
+{
+    color: rgb(8, 15, 37);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.input
+{
+    max-width: 300px;
+    margin-right: 10px;
+}
+.input:focus, .textarea:focus
+{
+    outline: none;
+}
+.button
+{
+    display: flex;
+    border-radius: 15px;
+    margin: 5% 0;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    color: rgb(241, 243, 141);
+    font-weight: bold;
+    background-color: darkgreen;
+}
+.formData div
+{
+    display: flex;
+}
+.sent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(8, 15, 37);
+    color: rgb(241, 243, 141);
+    padding: 20px;
+    border-radius: 15px;
+}

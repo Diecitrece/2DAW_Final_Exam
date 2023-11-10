@@ -1,0 +1,2 @@
+# 2-DAW-PracticaFinalFrontend
+Esta es la práctica final para la asignatura de frontend de 2º de DAW. Es además mi primera vez usando Next.js y se conecta a la API proporcionada por mi práctica final de backend. Sería básicamente una aplicación sencilla de turismo para Castellón de la Plana | This is the final practice for the frontend subject of 2ºDAW. It's also my first time using Next.js and It connects to the API given by my backend final practice. It's basically a simple tourism web app for Castellón de la Plana.

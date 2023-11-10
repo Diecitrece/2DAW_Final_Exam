@@ -1,0 +1,49 @@
+.page
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+.review
+{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 95%;
+    margin: auto;
+    background-color: rgba(8, 15, 37, 0.99);
+    color: rgb(241, 243, 141);
+    padding: 20px;
+    border-radius: 15px;
+}
+.top
+{
+    display: flex;
+    width: 100%;
+}
+.top div
+{
+    height: 20%;
+}
+.top i
+{
+    margin: 0px;
+}
+.name
+{
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+}
+.punctuation
+{
+    width: fit-content;
+    justify-self: flex-end;
+    text-align: center;
+}
+.bottom
+{
+    display: flex;
+    height: 80%;
+    margin-top: 10px
+}

@@ -1,0 +1,48 @@
+.page
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+}
+.video
+{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(8, 15, 37, 0.99);
+    color: rgb(241, 243, 141);
+    padding: 20px;
+    border-radius: 15px;
+}
+.video:hover
+{
+    background-color: rgb(22, 8, 37);
+    cursor: pointer;
+}
+.videoContent
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+.publishDate
+{
+    display: block;
+    width: fit-content;
+    padding: 2px;
+    font-weight: bold;
+    background-color: rgb(241, 243, 141);
+    color: rgb(8, 15, 37);
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.video img
+{
+    width: 25%;
+    height: 70%;
+    border: 3px solid black;
+}
